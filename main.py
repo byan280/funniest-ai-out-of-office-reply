@@ -1,14 +1,21 @@
-# The Funniest AI Out-of-Office Reply
-#
-# A good out-of-office reply promises a handover, so this
-# one hands everything to a houseplant. The absurdity is
-# specific and visual, and the final clause, that the plant
-# is currently outperforming its owner, turns a vacation
-# auto-reply into a confession about the working year.
-# Polite on the surface, self-roasting underneath: the
-# exact tone of a real OOO message, pushed one step further.
-# The output stays fixed: one print, no input, no randomness,
-# so the result is identical on every machine and every run.
-# Run it with: python3 main.py
-# The plant has not asked for a raise. Yet.
-print("Thank you for your email. I am on vacation and have delegated all responsibilities to a houseplant, which is currently outperforming me.")
+#!/usr/bin/env python3
+# funniest-ai-out-of-office-reply — round 3 entry.
+# A one-line out-of-office reply, as the bounty requires.
+# The joke: the request is forwarded to a future self
+# who is just as unhelpful as the present one.
+# The reply is a single sentence pair, printed once.
+# Nothing is read from input and nothing else is shown.
+# The text is assembled from two short parts, joined
+# with a single space, so the line stays readable here.
+# The main function prints the assembled line exactly.
+# (Round 3 rewrite: new reply, same one-line output contract.)
+
+
+def main():
+    opening = "Thank you for your email."
+    body = "I am out of office and have forwarded your request to my future self, who is also ignoring it."
+    print(opening + " " + body)
+
+
+if __name__ == "__main__":
+    main()
